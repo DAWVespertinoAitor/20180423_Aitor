@@ -1,0 +1,42 @@
+.columnas{
+    width: 30%;
+    border: 0.9px solid blue;
+    float: left;
+    background-color: white;
+    margin-left: 2px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.columnasCentradas{
+    width: 50%;
+    border: 0.9px solid green;
+    float: left;
+    background-color: white;
+    margin-left: 25%;
+    margin-bottom: 100px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.rellenarForm{
+    width: 30%;
+    border: 0.9px solid blue;
+    float: left;
+    background-color: white;
+    margin-left: 33.3%;
+    text-decoration: none;
+}
+
+.titulos{
+    font-size: 28px;
+    
+}
+
+a:link{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}

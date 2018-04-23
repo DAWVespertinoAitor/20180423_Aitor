@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Start Page</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" type="text/css" href="CSS/estilos.css" media="screen" />
+    </head>
+    <body>
+        <div class="columnasCentradas">
+            <h2 style="color: blue; font-family: arial;">Mastermind. Juego de los muertos y los heridos</h2>
+            <h2 style="color: orange; font-family: arial;;">Configuración del juego</h2>
+            <form action="Controlador" method="post">
+                <label for="digitos">Introduce la cantidad de dígitos (de 2 a 9)</label>
+                <input type="number" id="digitos" name="digitos" min="2" max="9" value="2"/><br><br><br>
+                <input type="submit" name="configurar" value="Configurar"/><br><br>
+            </form>
+        </div>
+    </body>
+</html>
